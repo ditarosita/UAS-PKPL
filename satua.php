@@ -13,7 +13,7 @@ class MoTV
 	}
 	function isExpiredVoucher($account)
 	{	if ($account == 'expired')
-			return TRUE:
+			return TRUE;
 		}
 	function isInvalidIdNumber($account)
 	{
@@ -26,13 +26,13 @@ class MoTV
 				return 'Reedem Voucher';
 			} else{
 				if ($this->isInvalidIdNumber($accountId) == TRUE){
-					return 'Your Id Number is Invalid'
+					return 'Your Id Number is Invalid';
 				}else {
-					return 'Buy account or reedem voucher'
+					return 'Buy account or reedem voucher';
 				}
 			}
 		} else{
-			return 'Your account is Unactive, you can buy account or redeem voucher'
+			return 'Your account is Unactive, you can buy account or redeem voucher';
 		}
 	}
 }
@@ -63,9 +63,9 @@ class MoTV
 			return 'Your voucher is Expired';
 		}
 		if ($this->invalidnumber($account) == TRUE){
-			return 'Your Id Number is Invalid'
+			return 'Your Id Number is Invalid';
 		}
-		return 'You can buy account or reedem voucher'
+		return 'You can buy account or reedem voucher';
 }
 
 ?>
