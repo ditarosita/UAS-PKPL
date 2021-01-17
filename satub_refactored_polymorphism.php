@@ -8,7 +8,7 @@ class LuasSelimut implements TabungInterface
 {
 	public function tendensiSentral($jarijari, $tinggi)
 	{
-		$dua = dua;
+		$dua = 2;
 		$phi = 3.14;
 		echo "Luas selimut tabung :". $dua*$this->phi*$jarijari*$tinggi;
 	}
@@ -17,7 +17,7 @@ Class Luas implements TabungInterface
 {
 	public function tendensiSentral($jarijari, $tinggi)
 	{
-		$dua = dua;
+		$dua = 2;
 		$phi = 3.14;
 		echo "Luas tabung :". $dua*$this->phi*$jarijari*($jarijari+$tinggi);
 	}
@@ -26,7 +26,7 @@ class Keliling implements TabungInterface
 {
 	public function tendensiSentral($jarijari, $tinggi)
 	{
-		$dua = dua;
+		$dua = 2;
 		$phi = 3.14;
 		echo "Keliling alas tabung :". $dua*$this->phi*$jarijari;
 	}
