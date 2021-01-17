@@ -36,6 +36,8 @@ class MoTV
 		}
 	}
 }
+
+//after refactored
 class MoTV
 {
 	function isUnactiveAccount($account){
