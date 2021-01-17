@@ -32,5 +32,6 @@ class Tabung{
 	}
 
 $jarijari = 14;
+$tinggi= 30;
 $hitungTabung->tendensiSentralUntuk('luas', $jarijari, $tinggi)
 ?>
