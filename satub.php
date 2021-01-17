@@ -23,10 +23,10 @@ class Tabung{
 				break;
 			case 'luas':
 				$this->luasTabung($jarijari, $tinggi);
-				break
+				break;
 			case 'keliling':
 				$this->kelilingAlasTabung($jarijari);
-				break
+				break;
 
 		}
 	}
