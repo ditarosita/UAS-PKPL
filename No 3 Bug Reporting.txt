@@ -1,0 +1,21 @@
+UAS NO 3 
+RAHMADITA INDAH ROSITA/1700018178/PKPL A
+Bug Reporting
+Deskripsi:
+Saat pengguna klik fitur ‘motorcycle’ maka tampilan yang muncul adalah tampilan form fitur ‘car’.
+
+Langkah-langkah:
+1.	Pengguna login aplikasi borneojek
+2.	Klik ikon fitur ‘motorcycle’
+3.	Terlihat tampilan form fitur ‘car’
+Hasil semestinya:
+Ketika pengguna klik ikon fitur ‘motorcycle’ maka seharusnya yang muncul adalah halaman form fitur ‘motorcycle’ bukan halaman form fitur ‘car’.
+
+Screenshots:
+ 
+1.	Klik ikon fitur ‘motorcycle’ pada dashboard
+https://github.com/ditarosita/UAS-PKPL/blob/main/Capture.PNG
+2.	Muncul halaman form fitur ‘car’
+https://github.com/ditarosita/UAS-PKPL/blob/main/car.PNG
+3.	Seharusnya yang muncul tampilan halaman form fitur ‘motorcycle’
+https://github.com/ditarosita/UAS-PKPL/blob/main/motor.PNG
